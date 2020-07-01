@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #454545;
+    color: #fff;
+}
+
+a,body {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+    position: fixed;
+}
+
+.sidebar .header {
+    padding: 10px 20px;
+}
+
+.sidebar .logo {
+    
+    text-align: center;
+    padding: 40px 0px 20px 20px;
+}
+
+.sidebar .logo a {
+    border: 5px solid #fff;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.sidebar .nav a {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px 10px;
+    transition: 1s;
+}
+
+.sidebar .list a {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px 10px;
+    transition: 1s;
+}
+
+.sidebar .nav a:hover {
+    color: #fff;
+    transition: 1s;
+}
+
+.sidebar .list a:hover {
+    color: #ccc;
+}
+/*内容区*/
+/* .main {
+    float: right;
+    width: 55%;
+    background: #fff;
+    color: #454545;
+    margin-right: 16%;
+    height: 100%;
+} */
+
+.main .article-list {
+    background: #fff;
+    margin-right: 20%;
+    color: #454545;
+    padding: 20px 30px 10px 30px;
+    margin-left: 50px;
+}
+
+.main .article-list .title {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.main .article-list .status {
+    font-size: 13px;
+    color: #ccc;
+    margin: 7px 0px;
+}
+
+.main .article-list .content {
+    font-size: 19px;
+}

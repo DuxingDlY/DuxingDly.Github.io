@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-decoration: none;
+    list-style: none;
+    transition: 1s;
+    background: #999999;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#container .sidebar {
+    width: 10%;
+    height: 100%;
+    float: left;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+}
+
+
+#container .main {
+    width: 90%;
+    height: 100%;
+    float: right;
+}
+
+/*导航内容样式*/
+
+#container .sidebar ul li p img{
+    width: 50px;
+    height: 50px;
+}
+
+#container .sidebar ul li a {
+    color: #fff;    
+}
+
+
+#container .sidebar ul li {
+    color: #fff;
+    text-align: center;
+    margin: 45px 0px;
+    transition: 1s;
+    padding: 10px 0px;
+    list-style: none;
+}
+
+#container .sidebar ul li:hover {
+    background: #555555;
+    margin-left: 15px;
+}
+
+#container .sidebar ul li a:hover {
+    color: #000;
+}
+
+
+/*内容区样式*/
+
+#container .main .title {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#container .main .title a {
+    color: #d8d8d8;
+    font-size: 30px;
+    font-weight: 300;
+    transition: .4s;
+    font-family: "楷体";
+}
+
+#container .main .title a:hover {
+    color: #fff;
+    transition: .4s;
+    
+}
+
+#container .main .logo {
+    text-align: center;
+    width: 180px;
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
+    transition: 1s;
+    margin-top: 9%;
+    
+}
+
+
+#container .main .logo img {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 11%;
+    left: 9%;
+    transition: 1s;
+}
+
+#container .main .logo:hover {
+    transition: 2s;
+    background: #333;
+}
+
+#container .main .txt {
+    text-align: center;
+}
+
+#container .main .txt h1 {
+
+    letter-spacing: 5px;
+    background: linear-gradient(red, yellow, red);	
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 60px;
+
+}
+

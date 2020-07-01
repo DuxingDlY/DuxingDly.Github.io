@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-decoration: none;
+    list-style: none;
+    transition: 1s;
+    background: #999999;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#container .sidebar {
+    width: 10%;
+    height: 100%;
+    float: left;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+}
+
+
+#container .main {
+    width: 90%;
+    height: 100%;
+    float: right;
+}
+
+/*导航内容样式*/
+
+#container .sidebar ul li p img{
+    width: 50px;
+    height: 50px;
+}
+
+#container .sidebar ul li a {
+    color: #fff;    
+}
+
+
+#container .sidebar ul li {
+    color: #fff;
+    text-align: center;
+    margin: 45px 0px;
+    transition: 1s;
+    padding: 10px 0px;
+    list-style: none;
+}
+
+#container .sidebar ul li:hover {
+    background: #555555;
+    margin-left: 15px;
+}
+
+#container .sidebar ul li a:hover {
+    color: #000;
+}
+
+/*main内容样式*/
+
+#container .main .title h1 {
+    transition: 1s;
+    font-size: 40px;
+    background: linear-gradient(red, yellow, red);	
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 100px 100px 100px 100px;
+    
+}
+
+#container .main .content h2 {
+    background: linear-gradient(red, yellow, red);	
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 1s;
+}
+
+#container .main .content p {
+    transition: 1s;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+#container .main .content ul {
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+#container .main .content {
+    text-align: center;
+}
+
+#container .main .content ul li img {
+    width: 150px;
+    height: 150px;
+}
+
+#container .main .content ul li  {
+    float: left;
+    margin: 25px;
+
+    padding: 0px 53px;
+}
+
+#container .anniu {
+    width: 150px;
+    height: 100px;
+    background: rgba(0, 0, 0, .8);
+    margin: 0 auto;
+    text-align: center;
+}
+
